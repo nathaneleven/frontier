@@ -5,18 +5,16 @@ import { CheckIcon } from '@chakra-ui/icons'
 const About = () => {
     return (
         <>
-        <Stack bgColor="#F1F1F1" w="100%" justify="center" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row-reverse"]}>
+        <Stack bgColor="#fff" w="100%" justify="center" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row-reverse"]}>
 
         <Box pb={["25px","25px","25px","25px","0"]} w={["100%","100%","100%","100%","50%"]} m="auto">
                 <Box p={["4","5","6","7","8"]}  w={["100%","100%","100%","100%","100%"]} m="auto">
                     <Heading mb="24px">
-                    About EarthLink
+                    About Smithville
                     </Heading>
-                        <Text>
-                        Headquartered in Atlanta, Georgia, EarthLink offers internet access, premium email, web hosting and privacy and data security products and services to customers throughout the United States.<br/><br/>
-
-                        EarthLink also has key partner relationships with several of the nation’s largest providers, enabling the Company to offer products and connectivity services available to millions of households across the country. 
-                        </Text>
+                    <Text>
+                        Smithville Communications is an American ISP (Internet Service Provider). It serves the market as an internet, cable tv and streaming service and security systems providing agency.
+                    </Text>
                 </Box>
                 </Box>
 

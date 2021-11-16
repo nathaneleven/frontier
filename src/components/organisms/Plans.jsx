@@ -2,6 +2,8 @@ import React from 'react'
 import { Box, SimpleGrid, Heading, Text, Flex, List, ListIcon, ListItem } from '@chakra-ui/layout'
 import CallNowPhoneBt from '../atoms/CallNowPhoneBt'
 import { CheckIcon } from '@chakra-ui/icons'
+import { Image } from '@chakra-ui/image'
+
 
 const Plans = () => {
     return (
@@ -16,12 +18,13 @@ const Plans = () => {
 
         <Flex align="start" justify="center" direction="row" fontWeight="700">
           <Box fontSize="29px" mt="7px" >$</Box>
-          <Box fontSize="94px" mt="-25px">72</Box>
+          <Box fontSize="94px" my="-25px">72</Box>
           <Box direction="column">
               <Box fontSize="43px" textAlign="start" mb="-18px" >00</Box><Box fontSize="21px" textAlign="start" mb="-5px" >/mo.</Box>
           </Box>
         </Flex>
       </Box>
+      <Image w="100%" h="7px" src="/color-underline.svg"/>
       <Box justify="start" w="100%" p="5">
       <List pb="6" textAlign="start" color="#000000" spacing={1}>
                 <ListItem>
@@ -41,36 +44,68 @@ const Plans = () => {
       </Box>
     </Flex>
 
-    <Flex rounded="md" bgColor="#fff" boxShadow="2xl" p="5" align="center" direction="column" >
-      <Heading pb="10px" as="h3" fontSize="2xl">Advance Internet</Heading>
+    <Flex rounded="md" boxShadow="2xl" bgColor="#fff" align="center" direction="column" >
+      <Box bgColor="black" color="#fff" w="100%" p="5">
+        <Heading pb="10px" as="h3" fontSize="2xl">Internet + Security</Heading>
 
-      <Flex align="start" direction="row" fontWeight="700">
-        <Box fontSize="29px" color="#F68D1F" mt="7px" >$</Box>
-        <Box fontSize="94px" color="#F68D1F" mt="-25px">64</Box>
-        <Box direction="column">
-            <Box fontSize="43px" textAlign="start" mb="-18px" color="#F68D1F">99</Box><Box fontSize="21px" textAlign="start" >/mo.</Box>
-        </Box>
-      </Flex>
-      <Text pb="5">
-      EarthLink offers a variety of plans to help keep you connected on one of America’s largest and fastest networks.
-      </Text>
+        <Flex align="start" justify="center" direction="row" fontWeight="700">
+          <Box fontSize="29px" mt="7px" >$</Box>
+          <Box fontSize="94px" my="-25px">116</Box>
+          <Box direction="column">
+              <Box fontSize="43px" textAlign="start" mb="-18px" >95</Box><Box fontSize="21px" textAlign="start" mb="-5px" >/mo.</Box>
+          </Box>
+        </Flex>
+      </Box>
+      <Image w="100%" h="7px" src="/color-underline.svg"/>
+      <Box justify="start" w="100%" p="5">
+      <List pb="6" textAlign="start" color="#000000" spacing={1}>
+                <ListItem>
+                    <ListIcon as={CheckIcon}  />
+                    Good for 4+ connected devices 
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={CheckIcon} />
+                    Includes wireless router  
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={CheckIcon} />
+                    Rapid HD video download 
+                </ListItem>
+            </List>
       <CallNowPhoneBt/>
+      </Box>
     </Flex>
 
-    <Flex rounded="md" bgColor="#fff" boxShadow="2xl" p="5" align="center" direction="column" >
-      <Heading pb="10px" as="h3" fontSize="2xl">Advance Internet</Heading>
+    <Flex rounded="md" boxShadow="2xl" bgColor="#fff" align="center" direction="column" >
+      <Box bgColor="black" color="#fff" w="100%" p="5">
+        <Heading pb="10px" as="h3" fontSize="2xl">Internet + Voice + Security</Heading>
 
-      <Flex align="start" direction="row" fontWeight="700">
-        <Box fontSize="29px" color="#F68D1F" mt="7px" >$</Box>
-        <Box fontSize="94px" color="#F68D1F" mt="-25px">64</Box>
-        <Box direction="column">
-            <Box fontSize="43px" textAlign="start" mb="-18px" color="#F68D1F">99</Box><Box fontSize="21px" textAlign="start" >/mo.</Box>
-        </Box>
-      </Flex>
-      <Text pb="5">
-      EarthLink offers a variety of plans to help keep you connected on one of America’s largest and fastest networks.
-      </Text>
+        <Flex align="start" justify="center" direction="row" fontWeight="700">
+          <Box fontSize="29px" mt="7px" >$</Box>
+          <Box fontSize="94px" my="-25px">121</Box>
+          <Box direction="column">
+              <Box fontSize="43px" textAlign="start" mb="-18px" >95</Box><Box fontSize="21px" textAlign="start" mb="-5px" >/mo.</Box>
+          </Box>
+        </Flex>
+      </Box>
+      <Image w="100%" h="7px" src="/color-underline.svg"/>
+      <Box justify="start" w="100%" p="5">
+      <List pb="6" textAlign="start" color="#000000" spacing={1}>
+                <ListItem>
+                    <ListIcon as={CheckIcon}  />
+                    Good for 4+ connected devices
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={CheckIcon} />
+                    Includes wireless router
+                </ListItem>
+                <ListItem>
+                    <ListIcon as={CheckIcon} />
+                    Rapid HD video download 
+                </ListItem>
+            </List>
       <CallNowPhoneBt/>
+      </Box>
     </Flex>
   </SimpleGrid> 
 
